@@ -6,13 +6,13 @@ export default function Navbar() {
           <a href="/" className="hover:text-yellow-500">
             <li>Home</li>
           </a>
-          <a href="/About" className="hover:text-yellow-500">
-            <li>About</li>
+          <a href="/About" id="About" className="hover:text-yellow-500">
+            <li id="About">About</li>
           </a>
           <a href="/Resume" className="hover:text-yellow-500">
             <li>Resume</li>
           </a>
-          <a href="" className="hover:text-yellow-500">
+          <a href="/Skills" className="hover:text-yellow-500">
             <li>Skills</li>
           </a>
           <a href="" className="hover:text-yellow-500">

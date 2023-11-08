@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex bg-black h-[46rem] py-10 px-10 items-center">
+    <div className="flex bg-black h-[44rem]  py-24 px-10 items-center">
       <div className="w-1/2 flex justify-center">
         <div className="flex flex-col gap-3">
           <div>

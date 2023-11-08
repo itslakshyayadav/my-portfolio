@@ -1,14 +1,15 @@
 import About from "./About";
-import Home from "./home";
-// import Navbar from "./navbar";
+import Home from "./Home";
+import Resume from "./Resume";
+import Skills from "./Skills";
 
 function HomePage() {
   return (
     <>
-      {/* <Navbar></Navbar> */}
-
       <Home></Home>
       <About></About>
+      <Resume></Resume>
+      <Skills></Skills>
     </>
   );
 }

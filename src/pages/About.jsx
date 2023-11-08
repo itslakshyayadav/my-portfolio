@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume (update).pdf";
+
 export default function About() {
   const Data = [
     {
@@ -27,37 +30,45 @@ export default function About() {
   ];
 
   return (
-    <div className="flex h-[46rem] py-10 px-10 ">
-      <div className="w-1/2 flex items-center justify-center">
-        <img
-          src="src/assets/Img1.jpg"
-          className="w-[28rem] h-[22rem] rounded-lg object-cover object-center"
-          alt=""
-        />
-      </div>
-      <div className="w-1/2">
-        <div className="flex flex-col gap-4">
-          <div>
-            <p className="font-bold text-[3rem] mt-14 text-white">About Me</p>
-            <span className="text-[2rem]   text-yellow-500">
-              Trainee Software Engineer at JustVegan.
-            </span>
-          </div>
-          <div>
-            <ul className="text-white flex flex-col gap-3 text-xl">
-              {Data.map((items, index) => {
-                return (
-                  <li key={index} className="flex">
-                    <span className="font-semibold w-40">{items.lable}</span>{" "}
-                    <span className="text-gray-300">{items.value}</span>
-                  </li>
-                );
-              })}
-            </ul>
-            <div className="flex gap-3 mt-6">
-              <button className="px-6 py-3 rounded-xl bg-yellow-500  text-white text-lg hover:bg-yellow-700">
-                Dowanload CV
-              </button>
+    <div className="bg-black flex flex-col gap-10 h-[42rem] py-14 px-10">
+      <p className="font-bold text-center text-6xl  text-white">About Me</p>
+      <div className="flex mt-8">
+        <div className="w-1/2 flex items-center justify-center">
+          <img
+            src="src/assets/Img1.jpg"
+            className="w-[28rem] h-[22rem] rounded-lg object-cover object-center"
+            alt=""
+          />
+        </div>
+        <div className="w-1/2 flex ">
+          <div className="flex flex-col gap-4">
+            <div>
+              <span className="text-[2rem] text-yellow-500">
+                Trainee Software Engineer at JustVegan.
+              </span>
+            </div>
+            <div>
+              <ul className="text-white flex flex-col gap-3 text-xl">
+                {Data.map((items, index) => {
+                  return (
+                    <li key={index} className="flex">
+                      <span className="font-semibold w-40">{items.lable}</span>{" "}
+                      <span className="text-gray-300">{items.value}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className="flex gap-3 mt-8">
+                <Link
+                  to={ResumeFile}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="ResumeFile-PDF-document"
+                  className="px-6 py-3 rounded-xl bg-yellow-500 text-lg hover:bg-yellow-300"
+                >
+                  Dowanload CV
+                </Link>
+              </div>
             </div>
           </div>
         </div>
