@@ -14,3 +14,13 @@ progress::-webkit-progress-value {
     height: 10px;
     
   }
+
+  .box:hover{
+    background-color:rgb(234,179,8);
+    color: black;
+
+  }
+
+  .box:hover .icon{
+    color: white;
+  }
