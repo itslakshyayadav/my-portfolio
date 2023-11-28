@@ -3,7 +3,7 @@ import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume (updat
 
 export default function Resume() {
   return (
-    <div className="text-white bg-black py-14 x-10">
+    <div id="resume" className="text-white bg-black py-14 x-10">
       <div className="flex flex-col gap-10">
         <h1 className="text-6xl  text-center font-bold">Resume</h1>
 
@@ -14,13 +14,13 @@ export default function Resume() {
                 May 2023 - Current
               </h1>
 
-              <h2 className="text-3xl font-semibold">
+              <h2 className="text-3xl tracking-widest font-semibold">
                 Job | Frontend Developer
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
                 Just Vegan | Veganism made simpler
               </h3>
-              <p className="text-neutral-300 text-sm mt-3 mb-8 leading-7">
+              <p className="text-neutral-300 text-sm tracking-widest mt-3 mb-1 leading-7">
                 Just Vegan is an online store that sells only vegan food
                 products, It catalogs the dishes in 4 categories, Breakfast,
                 Lunch, Snacks, and Dinner. People can place the order once or
@@ -37,13 +37,13 @@ export default function Resume() {
                 March 2023 - May 2023
               </h1>
 
-              <h2 className="text-3xl font-semibold">
-                Internship | Frontend Developer
+              <h2 className="text-3xl tracking-widest font-semibold">
+                Intern | Frontend Developer
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
                 Fyndster | Smart Contacts App with Superpowers
               </h3>
-              <p className="text-neutral-300 text-sm mt-3 mb-8 leading-7">
+              <p className="text-neutral-300 text-sm tracking-widest mt-3 mb-1 leading-7">
                 Fyndster is a smart contact book that solves the problem of
                 traditional contact books, such as Lost Contacts, Outdated
                 Contacts, Duplicate Contacts and features like Auto Cloud
@@ -60,13 +60,13 @@ export default function Resume() {
                 2021 - 2023
               </h1>
 
-              <h2 className="text-3xl font-semibold">
+              <h2 className="text-3xl tracking-widest font-semibold">
                 Bechalor's in Computer Application
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
                 Career Point University
               </h3>
-              <p className="text-neutral-300 text-lg mt-2 mb-20">
+              <p className="text-neutral-300 text-lg mt-2 mb-14">
                 <em>with 70% </em>
               </p>
               <span>
@@ -81,7 +81,7 @@ export default function Resume() {
                 July 2019 - June 2021
               </h1>
 
-              <h2 className="text-3xl font-semibold">
+              <h2 className="text-3xl tracking-widest font-semibold">
                 Higher Secondary Education
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
@@ -98,7 +98,9 @@ export default function Resume() {
                 July 2019
               </h1>
 
-              <h2 className="text-3xl font-semibold text-center">X Standard</h2>
+              <h2 className="text-3xl font-semibold tracking-widest text-center">
+                X Standard
+              </h2>
               <h3 className="text-md text-neutral-400 text-center uppercase">
                 Central Academy Shikshantar Senior Sec School Kota,
               </h3>
@@ -113,9 +115,9 @@ export default function Resume() {
               target="_blank"
               rel="noopener noreferrer"
               download="ResumeFile-PDF-document"
-              className="px-6 py-3 rounded-xl bg-yellow-500 text-black  text-lg hover:bg-yellow-300"
+              className="px-6 py-3 animate-bounce rounded-xl bg-yellow-500 text-black  text-lg hover:bg-yellow-300"
             >
-              Dowanload CV
+              Download CV
             </Link>
           </div>
         </div>

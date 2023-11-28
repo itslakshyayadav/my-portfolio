@@ -6,8 +6,8 @@ export default function Navbar() {
           <a href="/" className="hover:text-yellow-500">
             <li>Home</li>
           </a>
-          <a href="/About" id="About" className="hover:text-yellow-500">
-            <li id="About">About</li>
+          <a href="#about" className="hover:text-yellow-500">
+            <li>About</li>
           </a>
           <a href="/Resume" className="hover:text-yellow-500">
             <li>Resume</li>
@@ -18,7 +18,7 @@ export default function Navbar() {
           <a href="/Services" className="hover:text-yellow-500">
             <li>Services</li>
           </a>
-          <a href="" className="hover:text-yellow-500">
+          <a href="/Contact" className="hover:text-yellow-500">
             <li>Contact</li>
           </a>
         </ul>

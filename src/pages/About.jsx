@@ -30,7 +30,10 @@ export default function About() {
   ];
 
   return (
-    <div className="bg-black flex flex-col gap-10 h-[42rem] py-14 px-10">
+    <div
+      id="about"
+      className="bg-black flex flex-col gap-10 h-[42rem] py-14 px-10"
+    >
       <p className="font-bold text-center text-6xl  text-white">About Me</p>
       <div className="flex mt-8">
         <div className="w-1/2 flex items-center justify-center">
@@ -64,9 +67,9 @@ export default function About() {
                   target="_blank"
                   rel="noopener noreferrer"
                   download="ResumeFile-PDF-document"
-                  className="px-6 py-3 rounded-xl bg-yellow-500 text-lg hover:bg-yellow-300"
+                  className="px-6 py-3  rounded-xl bg-yellow-500 text-lg hover:bg-yellow-300"
                 >
-                  Dowanload CV
+                  Download CV
                 </Link>
               </div>
             </div>

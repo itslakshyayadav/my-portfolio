@@ -1,8 +1,9 @@
 import About from "./About";
+import Contact from "./Contact";
 import Home from "./Home";
+import ImageText from "./ImagesText";
 import Resume from "./Resume";
 import Services from "./Services";
-
 import Skills from "./Skills";
 
 function HomePage() {
@@ -13,6 +14,8 @@ function HomePage() {
       <Resume></Resume>
       <Services></Services>
       <Skills></Skills>
+      <ImageText></ImageText>
+      <Contact></Contact>
     </>
   );
 }
