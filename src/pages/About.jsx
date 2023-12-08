@@ -55,7 +55,7 @@ export default function About() {
                 {Data.map((items, index) => {
                   return (
                     <li key={index} className="flex">
-                      <span className="font-semibold w-40">{items.lable}</span>{" "}
+                      <span className="font-semibold w-40">{items.lable}</span>
                       <span className="text-gray-300">{items.value}</span>
                     </li>
                   );

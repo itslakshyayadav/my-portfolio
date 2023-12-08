@@ -3,13 +3,13 @@ import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume (updat
 
 export default function Resume() {
   return (
-    <div id="resume" className="text-white bg-black py-14 x-10">
+    <div id="Resume" className="text-white bg-black py-14 x-10">
       <div className="flex flex-col gap-10">
         <h1 className="text-6xl  text-center font-bold">Resume</h1>
 
         <div className="mx-auto max-w-4xl lg:max-w-6xl my-10">
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 lg:gap-12">
-            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 h-80 py-4 px-4">
+          <div className="grid grid-cols-1 px-10 sm:grid-cols-1 sm:px-10 md:grid-cols-2 xl:grid-cols-2 gap-6 lg:gap-12">
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl text-yellow-500 font-bold">
                 May 2023 - Current
               </h1>
@@ -32,7 +32,7 @@ export default function Resume() {
                 </Link>
               </span>
             </div>
-            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 h-80 py-4 px-4">
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl text-yellow-500 font-bold">
                 March 2023 - May 2023
               </h1>
@@ -55,7 +55,7 @@ export default function Resume() {
                 </Link>
               </span>
             </div>
-            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 h-80 py-4 px-4">
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl text-yellow-500 font-bold">
                 2021 - 2023
               </h1>
@@ -76,7 +76,7 @@ export default function Resume() {
               </span>
             </div>
 
-            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 h-80 py-4 px-4">
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl text-yellow-500 font-bold">
                 July 2019 - June 2021
               </h1>

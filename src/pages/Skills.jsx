@@ -27,7 +27,7 @@ export default function Skills() {
     },
   ];
   return (
-    <div className="bg-black h-[44rem]  py-14 px-10 ">
+    <div id="Skills" className="py-14 px-10 ">
       <h1 className="text-6xl font-bold text-center text-white">My Skills</h1>
       <div className="grid text-white py-16 grid-cols-2 gap-10 px-20">
         {skillData.map((data, index) => {
