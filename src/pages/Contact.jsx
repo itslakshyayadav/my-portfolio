@@ -114,7 +114,7 @@ export default function Contact() {
             ></textarea>
             <button
               type="button"
-              className="animate-bounce mt-4 px-6 py-4 rounded-3xl bg-yellow-400 uppercase tracking-widest  text-md hover:bg-yellow-300 hover:text-black"
+              className="animate-bounce mt-2 px-6 py-4 rounded-3xl bg-yellow-400 uppercase tracking-widest text-md hover:bg-yellow-300 hover:text-black"
             >
               send message
             </button>
