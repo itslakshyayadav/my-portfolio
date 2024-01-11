@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import img1 from "@/assets/Img1.jpg";
 import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume.pdf";
 
 export default function About() {
@@ -38,7 +39,7 @@ export default function About() {
       <div className="flex mt-8">
         <div className="w-1/2 flex items-center justify-center">
           <img
-            src="src/assets/Img1.jpg"
+            src={img1}
             className="w-[28rem] h-[22rem] rounded-lg object-cover object-center"
             alt=""
           />

@@ -164,7 +164,7 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 cols="30"
-                rows="6"
+                rows="5"
                 className="border border-neutral-400 tracking-widest px-4 py-2 outline-none rounded-md bg-transparent text-white
           "
               ></textarea>

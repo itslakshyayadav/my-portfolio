@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import lakshyaLaptop from "@/assets/lakshya-laptop.jpeg";
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
       </div>
       <div className="w-1/2 flex justify-center">
         <img
-          src="src/assets/lakshya-laptop.jpeg"
+          src={lakshyaLaptop}
           className="w-[28rem] h-[22rem] rounded-lg object-cover object-center"
           alt=""
         />
