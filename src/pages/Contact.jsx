@@ -27,10 +27,11 @@ export default function Contact() {
   };
 
   const handleSendWhatsApp = () => {
-    const message = `Name: ${formData.name},
+    const message = `
+    Name: ${formData.name},
     Email: ${formData.email},
-    Phone:${formData.phone},
-    Subject:${formData.subject}
+    Phone: ${formData.phone},
+    Subject: ${formData.subject}
     Message: ${formData.message}`;
 
     const whatsappLink = `https://wa.me/9929209856/?text=${encodeURIComponent(

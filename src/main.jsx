@@ -2,9 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import router from "./router.jsx";
 import "./index.css";
-
+import Navbar from "./pages/Navbar.jsx";
 import { RouterProvider } from "react-router-dom";
-import Navbar from "./pages/navbar.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
