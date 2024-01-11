@@ -85,9 +85,9 @@ export default function Contact() {
           </a>
         </div>
       </div>
-      <div className=" w-4/6 bg-slate-950 m-auto">
-        <div className="flex">
-          <div className="flex flex-col justify-center items-center gap-5 w-[28rem]">
+      <div className=" w-4/6 bg-slate-900 px-10 py-4 m-auto rounded-md">
+        <div className="flex gap-10">
+          <div className="flex flex-col justify-center items-center gap-5 w-1/2">
             <img
               src="https://github.com/AswinBarath/AswinBarath/blob/master/coding.gif?raw=true"
               className=" w-full object-cover rounded-lg"
@@ -98,33 +98,33 @@ export default function Contact() {
                 to="https://www.instagram.com/itslakshyayadav9856/"
                 target="_blank"
               >
-                <FaInstagram className="h-10 w-10 text-yellow-500"></FaInstagram>
+                <FaInstagram className="h-10 w-10 hover:text-yellow-300 text-yellow-500"></FaInstagram>
               </Link>
               <Link
                 to="https://www.facebook.com/laksh.yadav.10420"
                 target="_blank"
               >
-                <FaFacebookF className="h-10 w-10 text-yellow-500"></FaFacebookF>
+                <FaFacebookF className="h-10 w-10 hover:text-yellow-300 text-yellow-500"></FaFacebookF>
               </Link>
               <Link to="https://github.com/itslakshyayadav" target="_blank">
-                <FaGithub className="h-10 w-10 text-yellow-500"></FaGithub>
+                <FaGithub className="h-10 w-10 hover:text-yellow-300 text-yellow-500"></FaGithub>
               </Link>
               <Link
                 to="https://www.linkedin.com/in/lakshya-yadav-482a68247"
                 target="_blank"
               >
-                <FaLinkedin className="h-10 w-10 text-yellow-500"></FaLinkedin>
+                <FaLinkedin className="h-10 w-10 hover:text-yellow-300 text-yellow-500"></FaLinkedin>
               </Link>
             </div>
           </div>
 
           <div className="w-1/2 ">
-            <h1 className="text-amber-400 text-4xl text-center py-4">
+            <h1 className="text-amber-400 py-2 font-mono font-semibold text-4xl text-center ">
               Get In Touch
             </h1>
             <form
               onSubmit={handleSendWhatsApp}
-              className="flex flex-col gap-6 m-auto px-16"
+              className="flex flex-col gap-6 m-auto "
             >
               <input
                 type="text"
@@ -170,7 +170,7 @@ export default function Contact() {
               ></textarea>
               <button
                 type="submit"
-                className="animate-bounce mt-2 px-6 py-4 rounded-3xl bg-yellow-400 uppercase tracking-widest text-md hover:bg-yellow-300 hover:text-black"
+                className="animate-bounce mt-1 mb-2 py-3 font-semibold rounded-3xl bg-yellow-400 uppercase tracking-widest text-md hover:bg-yellow-300 hover:text-black"
               >
                 send message
               </button>
