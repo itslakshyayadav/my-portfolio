@@ -12,8 +12,8 @@ function HomePage() {
       <Home></Home>
       <About></About>
       <Resume></Resume>
-      <Services></Services>
       <Skills></Skills>
+      <Services></Services>
       <ImageText></ImageText>
       <Contact></Contact>
     </>

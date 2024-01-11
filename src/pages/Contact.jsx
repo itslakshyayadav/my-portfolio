@@ -5,10 +5,39 @@ import {
   HiGlobeEuropeAfrica,
 } from "react-icons/hi2";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import { BiUpArrowCircle } from "react-icons/bi";
+import { FaFacebookF } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSendWhatsApp = () => {
+    const message = `Name: ${formData.name},
+    Email: ${formData.email},
+    Phone:${formData.phone},
+    Subject:${formData.subject}
+    Message: ${formData.message}`;
+
+    const whatsappLink = `https://wa.me/9929209856/?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappLink, "_blank");
+  };
   return (
     <div id="Contact" className="bg-black py-14 px-10 ">
       <h1 className="text-6xl font-bold text-center text-white">Contact Me</h1>
@@ -57,10 +86,10 @@ export default function Contact() {
       </div>
       <div className=" w-4/6 bg-slate-950 m-auto">
         <div className="flex">
-          <div className="w-[28rem]">
+          <div className="flex flex-col justify-center items-center gap-5 w-[28rem]">
             <img
-              src="src/assets/Img.jpg"
-              className="h-[34rem] w-full object-cover rounded-lg"
+              src="https://github.com/AswinBarath/AswinBarath/blob/master/coding.gif?raw=true"
+              className=" w-full object-cover rounded-lg"
               alt=""
             />
             <div className="text-white flex gap-12 justify-center py-6 px-5">
@@ -69,6 +98,12 @@ export default function Contact() {
                 target="_blank"
               >
                 <FaInstagram className="h-10 w-10 text-yellow-500"></FaInstagram>
+              </Link>
+              <Link
+                to="https://www.facebook.com/laksh.yadav.10420"
+                target="_blank"
+              >
+                <FaFacebookF className="h-10 w-10 text-yellow-500"></FaFacebookF>
               </Link>
               <Link to="https://github.com/itslakshyayadav" target="_blank">
                 <FaGithub className="h-10 w-10 text-yellow-500"></FaGithub>
@@ -82,43 +117,64 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="w-1/2 flex flex-col gap-6 m-auto px-16">
-            <input
-              type="text"
-              placeholder="Name"
-              className="w-full px-3 py-2 mt-6 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
-            />
-            <input
-              type="text"
-              placeholder="Email"
-              className="w-full px-3 py-2 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
-            />
-            <input
-              type="text"
-              placeholder="Phone"
-              className="w-full px-3 py-2 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
-            />
-            <input
-              type="text"
-              placeholder="Subject"
-              className="w-full px-3 py-2 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
-            />
-            <textarea
-              name=""
-              placeholder="Message"
-              id=""
-              cols="30"
-              rows="6"
-              className="border border-neutral-400 tracking-widest px-4 py-2 outline-none rounded-md bg-transparent text-white
-          "
-            ></textarea>
-            <button
-              type="button"
-              className="animate-bounce mt-2 px-6 py-4 rounded-3xl bg-yellow-400 uppercase tracking-widest text-md hover:bg-yellow-300 hover:text-black"
+          <div className="w-1/2 ">
+            <h1 className="text-amber-400 text-4xl text-center py-4">
+              Get In Touch
+            </h1>
+            <form
+              onSubmit={handleSendWhatsApp}
+              className="flex flex-col gap-6 m-auto px-16"
             >
-              send message
-            </button>
-            <BiUpArrowCircle className="h-10 w-10 m-auto text-yellow-400"></BiUpArrowCircle>
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Name"
+                className="w-full px-3 py-2 mt-6 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
+              />
+              <input
+                type="text"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="Email"
+                className="w-full px-3 py-2 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
+              />
+              <input
+                type="text"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder="Phone"
+                className="w-full px-3 py-2 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
+              />
+              <input
+                type="text"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                placeholder="Subject"
+                className="w-full px-3 py-2 rounded-md tracking-widest border border-neutral-400 outline-none bg-transparent text-white"
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                value={formData.message}
+                onChange={handleChange}
+                cols="30"
+                rows="6"
+                className="border border-neutral-400 tracking-widest px-4 py-2 outline-none rounded-md bg-transparent text-white
+          "
+              ></textarea>
+              <button
+                type="submit"
+                className="animate-bounce mt-2 px-6 py-4 rounded-3xl bg-yellow-400 uppercase tracking-widest text-md hover:bg-yellow-300 hover:text-black"
+              >
+                send message
+              </button>
+              {/* <BiUpArrowCircle className="h-10 w-10 m-auto text-yellow-400"></BiUpArrowCircle> */}
+            </form>
           </div>
         </div>
       </div>

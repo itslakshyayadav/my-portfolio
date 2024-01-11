@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume (update).pdf";
+import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume.pdf";
 
 export default function About() {
   const Data = [
@@ -32,9 +32,8 @@ export default function About() {
   return (
     <div
       id="about"
-      className="bg-black flex flex-col gap-10 h-[42rem] py-14 px-10"
+      className="bg-black flex flex-col gap-10 h-[48rem] py-14 px-10"
     >
-  
       <p className="font-bold text-center text-6xl  text-white">About Me</p>
       <div className="flex mt-8">
         <div className="w-1/2 flex items-center justify-center">
@@ -61,7 +60,6 @@ export default function About() {
                     </li>
                   );
                 })}
-
               </ul>
               <div className="flex gap-3 mt-8">
                 <Link

@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
-    <div className="flex bg-black h-[44rem]  py-24 px-10 items-center">
+    <div className="flex bg-black h-[48rem]  py-24 px-10 items-center">
       <div className="w-1/2 flex justify-center">
         <div className="flex flex-col gap-3">
           <div>
@@ -14,12 +16,19 @@ export default function Home() {
             <h2 className=" text-[3rem] text-white">Frontend Web Developer</h2>
           </div>
           <div className="flex gap-3">
-            <button className="px-6 py-4 rounded-xl bg-yellow-500 uppercase text-white text-sm hover:bg-yellow-700">
+            <a
+              href="#Contact"
+              className="px-6 py-4 rounded-xl bg-yellow-500 uppercase font-semibold text-white text-sm hover:bg-yellow-700"
+            >
               Hire Me
-            </button>
-            <button className="px-5 py-4 rounded-xl  border border-white uppercase text-white text-sm hover:bg-white hover:text-black">
+            </a>
+            <Link
+              to="https://github.com/itslakshyayadav"
+              target="_blank"
+              className="px-5 py-4 rounded-xl  border-2 border-white uppercase font-semibold text-white text-sm hover:bg-white hover:text-black"
+            >
               my work
-            </button>
+            </Link>
           </div>
         </div>
       </div>
