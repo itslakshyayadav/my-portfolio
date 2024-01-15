@@ -3,40 +3,42 @@ import lakshyaLaptop from "@/assets/lakshya-laptop.jpeg";
 
 export default function Home() {
   return (
-    <div className="flex bg-black h-[48rem]  py-24 px-10 items-center">
-      <div className="w-1/2 flex justify-center">
-        <div className="flex flex-col gap-3">
-          <div>
-            <p className="font-semibold text-lg tracking-widest uppercase text-yellow-500">
-              Hello
-            </p>
-            <span className="text-[5rem] text-white">I'am </span>
-            <h1 className="text-[5rem] font-bold text-yellow-500">
-              Lakshya Yadav
-            </h1>
-            <h2 className=" text-[3rem] text-white">Frontend Web Developer</h2>
-          </div>
-          <div className="flex gap-3">
+    <div className="flex flex-col lg:flex-row h-[48rem] bg-black py-12 lg:py-24 px-6 lg:px-10 items-center">
+      <div className="lg:w-1/2 flex justify-center mb-8 lg:mb-0">
+        <div className="flex flex-col gap-3 text-center lg:text-left">
+          <p className="font-semibold text-lg tracking-widest uppercase text-yellow-500">
+            Hello
+          </p>
+          <span className="text-2xl lg:text-5xl text-white">I am </span>
+          <h1 className="text-2xl lg:text-5xl font-bold text-yellow-500">
+            Lakshya Yadav
+          </h1>
+          <h2 className="text-lg lg:text-3xl text-white">
+            Frontend Web Developer
+          </h2>
+          <div className="flex gap-3 mt-4">
             <a
               href="#Contact"
-              className="px-6 py-4 rounded-xl bg-yellow-500 uppercase font-semibold text-white text-sm hover:bg-yellow-700"
+              className="px-4 lg:px-6 py-3 lg:py-4 rounded-xl bg-yellow-500 uppercase font-semibold text-white text-sm lg:text-base hover:bg-yellow-700"
             >
               Hire Me
             </a>
             <Link
-              to="https://github.com/itslakshyayadav"
+              href="https://github.com/itslakshyayadav"
               target="_blank"
-              className="px-5 py-4 rounded-xl  border-2 border-white uppercase font-semibold text-white text-sm hover:bg-white hover:text-black"
+              rel="noopener noreferrer"
+              className="px-3 lg:px-5 py-3 lg:py-4 rounded-xl border-2 border-white uppercase font-semibold text-white text-sm lg:text-base hover:bg-white hover:text-black"
             >
-              my work
+              My Work
             </Link>
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex justify-center">
+
+      <div className="lg:w-1/2 flex justify-center">
         <img
           src={lakshyaLaptop}
-          className="w-[28rem] h-[22rem] rounded-lg object-cover object-center"
+          className="w-full lg:w-96 h-auto lg:h-72 rounded-lg object-cover object-center"
           alt=""
         />
       </div>

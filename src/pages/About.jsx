@@ -31,44 +31,49 @@ export default function About() {
   ];
 
   return (
-    <div
-      id="about"
-      className="bg-black flex flex-col gap-10 h-[48rem] py-14 px-10"
-    >
-      <p className="font-bold text-center text-6xl  text-white">About Me</p>
-      <div className="flex mt-8">
-        <div className="w-1/2 flex items-center justify-center">
+    <div id="about" className=" flex flex-col gap-10 py-14 px-6 lg:px-10">
+      <p className="font-bold text-center text-4xl lg:text-6xl text-white">
+        About Me
+      </p>
+
+      <div className="flex flex-col lg:flex-row mt-8">
+        <div className="lg:w-1/2 flex items-center justify-center mb-8 lg:mb-0">
           <img
             src={img1}
-            className="w-[28rem] h-[22rem] rounded-lg object-cover object-center"
+            className="w-full lg:w-[28rem]  h-auto lg:h-[22rem] rounded-lg object-cover object-center sm:block lg:visible"
             alt=""
           />
         </div>
-        <div className="w-1/2 flex ">
-          <div className="flex flex-col gap-4">
+
+        <div className="lg:w-1/2 flex">
+          <div className="flex flex-col gap-4 text-center lg:text-left w-full">
             <div>
-              <span className="text-[2rem] text-yellow-500">
-                Trainee Software Engineer at JustVegan.
+              <span className="text-xl lg:text-2xl text-yellow-500">
+                Trainee Software Engineer at Fyndster.
               </span>
             </div>
             <div>
-              <ul className="text-white flex flex-col gap-3 text-xl">
+              <ul className="text-white flex flex-col gap-3 text-base lg:text-xl">
                 {Data.map((items, index) => {
                   return (
                     <li key={index} className="flex">
-                      <span className="font-semibold w-40">{items.lable}</span>
-                      <span className="text-gray-300">{items.value}</span>
+                      <span className="font-semibold text-left w-20 lg:w-40">
+                        {items.lable}
+                      </span>
+                      <span className="text-gray-300 text-left">
+                        {items.value}
+                      </span>
                     </li>
                   );
                 })}
               </ul>
-              <div className="flex gap-3 mt-8">
+              <div className="mt-8">
                 <Link
-                  to={ResumeFile}
+                  href={ResumeFile}
                   target="_blank"
                   rel="noopener noreferrer"
                   download="ResumeFile-PDF-document"
-                  className="px-6 py-3  rounded-xl bg-yellow-500 text-lg hover:bg-yellow-300"
+                  className="px-4  lg:px-6 py-2 lg:py-3  rounded-xl bg-yellow-500 text-base lg:text-lg hover:bg-yellow-300"
                 >
                   Download CV
                 </Link>

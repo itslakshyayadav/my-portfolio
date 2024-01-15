@@ -40,9 +40,11 @@ export default function Contact() {
     window.open(whatsappLink, "_blank");
   };
   return (
-    <div id="Contact" className="bg-black py-14 px-10 ">
-      <h1 className="text-6xl font-bold text-center text-white">Contact Me</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-12 text-white px-20 py-20">
+    <div id="Contact" className=" py-20 px-6 lg:px-10">
+      <h1 className="text-4xl lg:text-6xl font-bold text-center text-white mb-8">
+        Contact Me
+      </h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-12 text-white px-4 sm:px-10 py-10">
         <div className=" flex flex-col gap-5 py-5 px-5 ">
           <div className="bg-neutral-900 px-12 py-11 m-auto rounded-full">
             <HiMapPin className="h-7 w-7 text-yellow-500"></HiMapPin>
@@ -85,12 +87,13 @@ export default function Contact() {
           </a>
         </div>
       </div>
-      <div className=" w-4/6 bg-slate-900 px-10 py-4 m-auto rounded-md">
-        <div className="flex gap-10">
-          <div className="flex flex-col justify-center items-center gap-5 w-1/2">
+
+      <div className="w-full sm:w-4/6 bg-slate-900 px-4 sm:px-10 py-6 lg:py-6 m-auto rounded-md">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="lg:w-1/2 flex flex-col justify-center items-center gap-5">
             <img
               src="https://github.com/AswinBarath/AswinBarath/blob/master/coding.gif?raw=true"
-              className=" w-full object-cover rounded-lg"
+              className="w-full object-cover rounded-lg"
               alt=""
             />
             <div className="text-white flex gap-12 justify-center py-6 px-5">
@@ -118,8 +121,8 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="w-1/2 ">
-            <h1 className="text-amber-400 py-2 font-mono font-semibold text-4xl text-center ">
+          <div className="lg:w-1/2">
+            <h1 className="text-amber-400 py-2 font-mono font-semibold text-3xl lg:text-4xl text-center lg:text-center">
               Get In Touch
             </h1>
             <form
@@ -174,7 +177,6 @@ export default function Contact() {
               >
                 send message
               </button>
-              {/* <BiUpArrowCircle className="h-10 w-10 m-auto text-yellow-400"></BiUpArrowCircle> */}
             </form>
           </div>
         </div>
