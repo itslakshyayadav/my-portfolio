@@ -71,8 +71,6 @@ export default function Navbar() {
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
-              {/* <span className="absolute -inset-0.5"></span>
-          <span className="sr-only">Open main menu</span> */}
               {isOpen ? (
                 <button className="h-6 w-6">
                   <HiMiniXMark className="h-6 w-6 flex text-yellow-400"></HiMiniXMark>

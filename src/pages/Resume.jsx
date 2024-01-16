@@ -124,7 +124,7 @@ export default function Resume() {
               to={ResumeFile}
               target="_blank"
               rel="noopener noreferrer"
-              download="ResumeFile-PDF-document"
+              download="LakshyaResumeFile-PDF-document"
               className="px-6 py-3 animate-bounce rounded-xl bg-yellow-500 text-black  text-lg hover:bg-yellow-300"
             >
               Download CV
