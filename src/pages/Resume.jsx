@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume.pdf";
+import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_Original.pdf";
 
 export default function Resume() {
   return (
@@ -11,37 +11,11 @@ export default function Resume() {
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-12">
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                May 2023 - Current
-              </h1>
-              <h2 className="text-3xl tracking-widest font-semibold">
-                Job | Frontend Developer
-              </h2>
-              <h3 className="text-md text-neutral-400 uppercase">
-                Just Vegan | Veganism made simpler
-              </h3>
-              <p className="text-neutral-300 text-sm lg:text-base tracking-widest mt-3 mb-1 leading-7">
-                Just Vegan is an online store that sells only vegan food
-                products, It catalogs the dishes in 4 categories, Breakfast,
-                Lunch, Snacks, and Dinner. People can place the order once or
-                also schedule recursive delivery.
-              </p>
-              <span>
-                <Link
-                  to="http://justvegan.fit"
-                  className="text-blue-400"
-                  target="_blank"
-                >
-                  justvegan.fit
-                </Link>
-              </span>
-            </div>
-            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                March 2023 - May 2023
+                March 2022 - current
               </h1>
 
               <h2 className="text-3xl tracking-widest font-semibold">
-                Intern | Frontend Developer
+                Job | Frontend Developer
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
                 Fyndster | Smart Contacts App with Superpowers
@@ -64,7 +38,33 @@ export default function Resume() {
             </div>
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                2021 - 2023
+                Jan 2022 - March 2022
+              </h1>
+              <h2 className="text-3xl tracking-widest font-semibold">
+                Intern | Frontend Developer
+              </h2>
+              <h3 className="text-md text-neutral-400 uppercase">
+                Just Vegan | Fyndster
+              </h3>
+              <p className="text-neutral-300 text-sm lg:text-base tracking-widest mt-3 mb-1 leading-7">
+                Just Vegan is an online store that sells only vegan food
+                products, It catalogs the dishes in 4 categories, Breakfast,
+                Lunch, Snacks, and Dinner. People can place the order once or
+                also schedule recursive delivery.
+              </p>
+              <span>
+                <Link
+                  to="http://justvegan.fit"
+                  className="text-blue-400"
+                  target="_blank"
+                >
+                  justvegan.fit
+                </Link>
+              </span>
+            </div>
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
+              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
+                2019 - 2022
               </h1>
 
               <h2 className="text-3xl tracking-widest font-semibold">
@@ -89,7 +89,7 @@ export default function Resume() {
 
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                July 2019 - June 2021
+                July 2019
               </h1>
 
               <h2 className="text-3xl tracking-widest font-semibold">
@@ -100,21 +100,6 @@ export default function Resume() {
               </h3>
               <p className="text-neutral-300 text-sm lg:text-base tracking-widest mt-3 mb-1 leading-7">
                 <em>with 90% </em>
-              </p>
-            </div>
-            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                July 2019
-              </h1>
-
-              <h2 className="text-3xl font-semibold tracking-widest ">
-                X Standard
-              </h2>
-              <h3 className="text-md text-neutral-400 uppercase">
-                Central Academy Shikshantar Senior Sec School Kota,
-              </h3>
-              <p className="text-neutral-300 text-sm lg:text-base tracking-widest mt-3 mb-1 leading-7">
-                <em>with 60% </em>
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import img1 from "@/assets/Img1.jpg";
-import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume.pdf";
+import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_Original.pdf";
 
 export default function About() {
   const Data = [
