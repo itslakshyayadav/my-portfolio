@@ -14,19 +14,19 @@ export default function Home() {
             Lakshya Yadav
           </h1>
           <h2 className="text-2xl lg:text-3xl text-white">
-            Frontend Web Developer
+            Senior Software Developer
           </h2>
           <div className="flex gap-3 justify-center lg:justify-start mt-4">
             <a
               href="#Contact"
-              className="px-4 lg:px-6 py-3 lg:py-4 rounded-xl bg-yellow-500 uppercase font-semibold text-white text-sm lg:text-base hover:bg-yellow-700"
+              className="px-4 lg:px-6 py-3 lg:py-4 rounded-xl bg-yellow-600 uppercase font-semibold text-white text-sm lg:text-base hover:bg-yellow-700"
             >
               Hire Me
             </a>
             <Link
               to="https://github.com/itslakshyayadav"
               target="_blank"
-              className="px-3 lg:px-5 py-3 lg:py-4 rounded-xl border-2 border-white uppercase font-semibold text-white text-sm lg:text-base hover:bg-white hover:text-black"
+              className="px-3 lg:px-5 py-3 lg:py-4 rounded-xl border border-white uppercase font-semibold text-white text-sm lg:text-base hover:bg-white hover:text-black"
             >
               My Work
             </Link>

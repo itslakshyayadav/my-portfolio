@@ -28,7 +28,7 @@ export default function Skills() {
   ];
   return (
     <div id="Skills" className="h-[48rem] py-14 px-6 lg:px-10">
-      <h1 className="text-4xl mb-8 lg:text-6xl font-bold text-center text-white">
+      <h1 className="text-4xl mb-8 lg:text-4xl font-bold text-center text-white">
         My Skills
       </h1>
 
@@ -38,7 +38,7 @@ export default function Skills() {
             key={index}
             className="flex flex-col gap-3 w-full m-auto sm:w-10/12 md:w-10/12 lg:w-full px-4 py-4"
           >
-            <div className="flex font-semibold text-xl lg:text-2xl justify-between">
+            <div className="flex font-semibold text-xl lg:text-xl justify-between">
               <label htmlFor={`file-${index}`}>{data.label}</label>
               <span>{data.percentage}</span>
             </div>

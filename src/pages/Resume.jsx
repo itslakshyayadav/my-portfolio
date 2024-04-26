@@ -1,20 +1,47 @@
 import { Link } from "react-router-dom";
-import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_Original.pdf";
+import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_LY.pdf";
 
 export default function Resume() {
   return (
     <div id="Resume" className="text-white bg-black py-14 px-6 lg:px-10">
       <div className="flex flex-col gap-10">
-        <h1 className="text-4xl lg:text-6xl text-center font-bold">Resume</h1>
+        <h1 className="text-4xl lg:text-4xl text-center font-bold">Resume</h1>
 
         <div className="mx-auto max-w-4xl lg:max-w-6xl my-10">
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-12">
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                March 2022 - current
+              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+                April 2024 - current
               </h1>
 
-              <h2 className="text-3xl tracking-widest font-semibold">
+              <h2 className="text-2xl tracking-widest font-semibold">
+                Job |Senior Software Developer
+              </h2>
+              <h3 className="text-md text-neutral-400 uppercase">
+                PULSE | The Heart Beat Of Your Business
+              </h3>
+              <p className="text-neutral-300 text-sm lg:text-base tracking-widest mt-3 mb-1 leading-7">
+                Monitor construction sites using smart digitised checklists and
+                ensure safety and quality standards. Pulse can also integrate
+                with other platforms seamlessly to provide a holistic and
+                unified experience.
+              </p>
+              <span>
+                <Link
+                  to="https://www.pulsepro.ai"
+                  target="_blank"
+                  className="text-blue-400 "
+                >
+                  pulsepro.ai
+                </Link>
+              </span>
+            </div>
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
+              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+                March 2021 - April 2024
+              </h1>
+
+              <h2 className="text-2xl tracking-widest font-semibold">
                 Job | Frontend Developer
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
@@ -37,10 +64,10 @@ export default function Resume() {
               </span>
             </div>
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                Jan 2022 - March 2022
+              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+                Jan 2021 - March 2021
               </h1>
-              <h2 className="text-3xl tracking-widest font-semibold">
+              <h2 className="text-2xl tracking-widest font-semibold">
                 Intern | Frontend Developer
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
@@ -63,11 +90,11 @@ export default function Resume() {
               </span>
             </div>
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                2019 - 2022
+              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+                2021 - 2024
               </h1>
 
-              <h2 className="text-3xl tracking-widest font-semibold">
+              <h2 className="text-2xl tracking-widest font-semibold">
                 Bechalor's in Computer Application
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">
@@ -88,11 +115,11 @@ export default function Resume() {
             </div>
 
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-2xl lg:text-3xl text-yellow-500 font-bold">
-                July 2019
+              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+                July 2020
               </h1>
 
-              <h2 className="text-3xl tracking-widest font-semibold">
+              <h2 className="text-2xl tracking-widest font-semibold">
                 Higher Secondary Education
               </h2>
               <h3 className="text-md text-neutral-400 uppercase">

@@ -41,7 +41,7 @@ export default function Contact() {
   };
   return (
     <div id="Contact" className=" py-20 px-6 lg:px-10">
-      <h1 className="text-4xl lg:text-6xl font-bold text-center text-white mb-8">
+      <h1 className="text-4xl lg:text-4xl font-bold text-center text-white mb-8">
         Contact Me
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-12 text-white px-4 sm:px-10 py-10">

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import img1 from "@/assets/Img1.jpg";
-import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_Original.pdf";
+import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_LY.pdf";
 
 export default function About() {
   const Data = [
@@ -14,7 +14,7 @@ export default function About() {
     },
     {
       lable: "Address:",
-      value: "BH-2 ,53 Royal Garden Estate Sector-61, Noida",
+      value: "BH-2 ,53 Royal Garden Estate Sector-61, Noida,UP",
     },
     {
       lable: "Zip code:",
@@ -32,7 +32,7 @@ export default function About() {
 
   return (
     <div id="about" className=" flex flex-col gap-10 py-14 px-6 lg:px-10">
-      <p className="font-bold text-center text-4xl lg:text-6xl text-white">
+      <p className="font-bold text-center text-4xl lg:text-4xl text-white">
         About Me
       </p>
 
@@ -49,7 +49,7 @@ export default function About() {
           <div className="flex flex-col gap-4 text-center lg:text-left w-full">
             <div>
               <span className="text-xl lg:text-2xl text-yellow-500">
-                Trainee Software Engineer at Fyndster.
+                Senior Software Developer at pulsepro.ai
               </span>
             </div>
             <div>
@@ -57,7 +57,7 @@ export default function About() {
                 {Data.map((items, index) => {
                   return (
                     <li key={index} className="flex">
-                      <span className="font-semibold text-left w-20 lg:w-40">
+                      <span className="font-semibold text-left text-sm w-20 lg:w-40">
                         {items.lable}
                       </span>
                       <span className="text-gray-300 text-left">

@@ -7,12 +7,38 @@ import {
   HiOutlineScale,
 } from "react-icons/hi2";
 export default function Services() {
+  // const data = [
+  //   { name: " WEB DESIGN", icon: <HiOutlineGlobeAlt /> },
+  //   { name: "Photography", icon: <HiOutlineCamera /> },
+  //   { name: "Web Developer", icon: <HiMiniComputerDesktop /> },
+  //   { name: "App Developing", icon: <HiDevicePhoneMobile /> },
+  //   { name: "Branding", icon: <HiOutlineBanknotes /> },
+  //   { name: "Product Strategy", icon: <HiOutlineScale /> },
+  // ];
   return (
     <div id="Services" className=" py-14 px-6 lg:px-10">
-      <h1 className="text-4xl mb-10 lg:text-6xl font-bold text-center text-white">
+      <h1 className="text-4xl mb-10 lg:text-4xl font-bold text-center text-white">
         Services
       </h1>
+
       <div className="text-white py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 px-4 sm:px-10 lg:gap-8">
+        {/* {data.map((item, index) => {
+          return (
+            <div
+              key={"item" + index}
+              className="box w-full sm:w-[21rem] flex flex-col gap-2 justify-center items-center h-56 m-auto bg-neutral-900 px-4 py-4 rounded-md"
+            >
+              <div
+                className="icon    text-yellow-500"
+              >
+                {item.icon}
+              </div>
+              <h1 className="uppercase tracking-widest text-md font-semibold">
+                {item.name}
+              </h1>
+            </div>
+          );
+        })} */}
         <div className="box w-full sm:w-[21rem] flex flex-col gap-2 justify-center items-center h-56 m-auto bg-neutral-900 px-4 py-4 rounded-md">
           <HiOutlineGlobeAlt className="icon h-14 w-14 text-yellow-500"></HiOutlineGlobeAlt>
           <h1 className="uppercase tracking-widest text-md font-semibold">
