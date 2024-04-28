@@ -11,7 +11,7 @@ export default function Resume() {
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-12">
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
-                April 2024 - current
+                May 2024 - current
               </h1>
 
               <h2 className="text-2xl tracking-widest font-semibold">
