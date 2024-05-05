@@ -49,7 +49,7 @@ export default function About() {
           <div className="flex flex-col gap-4 text-center lg:text-left w-full">
             <div>
               <span className="text-xl lg:text-2xl text-yellow-500">
-                Senior Software Developer at pulsepro.ai
+                Senior Software Developer
               </span>
             </div>
             <div>
