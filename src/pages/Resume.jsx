@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ResumeFile from "./ResumeFile/LakshyaYadav_FrontendEngineer_Resume_LY.pdf";
+import ResumeFile from "./ResumeFile/LakshYadav_FrontendDeveloper_Resume.pdf";
 
 export default function Resume() {
   return (
