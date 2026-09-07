@@ -14,7 +14,7 @@ export default function Home() {
             Lakshya Yadav
           </h1>
           <h2 className="text-2xl lg:text-3xl text-white">
-            Senior Software Developer
+            Senior Software Engineer
           </h2>
           <div className="flex gap-3 justify-center lg:justify-start mt-4">
             <a

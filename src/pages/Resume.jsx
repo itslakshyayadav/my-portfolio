@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ResumeFile from "./ResumeFile/LakshYadav_FrontendDeveloper_Resume.pdf";
+import ResumeFile from "./ResumeFile/Lakshya_Yadav_Resume (5).pdf";
 
 export default function Resume() {
   return (
@@ -11,7 +11,32 @@ export default function Resume() {
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-12">
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
               <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
-                May 2024 - current
+                Sep 2025 - current
+              </h1>
+
+              <h2 className="text-2xl tracking-widest font-semibold">
+                Job |Senior Software Developer
+              </h2>
+              <h3 className="text-md text-neutral-400 uppercase">
+                Mahindra & Mahindra Financial Services Ltd. (Mahindra Finance)
+              </h3>
+              <p className="text-neutral-300 text-sm lg:text-base tracking-widest mt-3 mb-1 leading-7">
+                Leading NBFC in India (rural/semi-urban financing, 10M+
+                customers, USD 11B+ AUM, 1,300+ offices).
+              </p>
+              <span>
+                <Link
+                  to="https://customer.mahindrafinance.com/"
+                  target="_blank"
+                  className="text-blue-400 "
+                >
+                  mahindrafinance.com
+                </Link>
+              </span>
+            </div>
+            <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
+              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+                May 2024 - Aug 2025
               </h1>
 
               <h2 className="text-2xl tracking-widest font-semibold">
@@ -90,9 +115,9 @@ export default function Resume() {
               </span>
             </div>
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+              {/* <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
                 2021 - 2024
-              </h1>
+              </h1> */}
 
               <h2 className="text-2xl tracking-widest font-semibold">
                 Bechalor's in Computer Application
@@ -115,9 +140,9 @@ export default function Resume() {
             </div>
 
             <div className="bg-zinc-800 rounded-md flex flex-col gap-3 py-4 px-4">
-              <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
+              {/* <h1 className="text-xl lg:text-2xl text-yellow-500 font-bold">
                 July 2020
-              </h1>
+              </h1> */}
 
               <h2 className="text-2xl tracking-widest font-semibold">
                 Higher Secondary Education

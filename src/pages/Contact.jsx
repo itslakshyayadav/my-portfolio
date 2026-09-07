@@ -35,7 +35,7 @@ export default function Contact() {
     Message: ${formData.message}`;
 
     const whatsappLink = `https://wa.me/9929209856/?text=${encodeURIComponent(
-      message
+      message,
     )}`;
     window.open(whatsappLink, "_blank");
   };
@@ -51,8 +51,7 @@ export default function Contact() {
           </div>
           <h1 className="text-center text-sm text-gray-300"> ADDRESS</h1>
           <h1 className="text-center font-semibold text-lg">
-            {" "}
-            Royal Garden Estate{" "}
+            Thane, Maharashtra, India
           </h1>
         </div>
         <div className=" flex flex-col gap-5 py-5 px-5">
@@ -60,7 +59,10 @@ export default function Contact() {
             <HiPhone className="h-7 w-7 text-yellow-500"></HiPhone>
           </div>
           <h1 className="text-center text-sm text-gray-300"> CONTACT</h1>
-          <h1 className="text-center font-semibold text-lg"> +91 9929209856</h1>
+          <h1 className="text-center font-semibold text-lg">
+            {" "}
+            +91 - 9929209856
+          </h1>
         </div>
         <div className=" flex flex-col gap-5 py-5 px-5">
           <div className="bg-neutral-900 px-12 py-11 m-auto rounded-full">
@@ -78,12 +80,12 @@ export default function Contact() {
           </div>
           <h1 className="text-center text-sm text-gray-300"> WEBSITE</h1>
           <a
-            href="http://justvegan.fit/"
+            href="http://openretro.in/"
             target="_blank"
             rel="noreferrer"
             className="text-center font-semibold text-lg"
           >
-            justvegan.fit
+            openretro.in
           </a>
         </div>
       </div>

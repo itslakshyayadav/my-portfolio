@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import img1 from "@/assets/Img1.jpg";
-import ResumeFile from "./ResumeFile/LakshYadav_FrontendDeveloper_Resume.pdf";
+import ResumeFile from "./ResumeFile/Lakshya_Yadav_Resume (5).pdf";
 
 export default function About() {
   const Data = [
@@ -14,11 +14,11 @@ export default function About() {
     },
     {
       lable: "Address:",
-      value: "BH-2 ,53 Royal Garden Estate Sector-61, Noida,UP",
+      value: "T-4 ,1710 Majiwada, Thane West, Mumbai Maharashtra, India",
     },
     {
       lable: "Zip code:",
-      value: "201301",
+      value: "400601",
     },
     {
       lable: "Email:",
@@ -49,7 +49,7 @@ export default function About() {
           <div className="flex flex-col gap-4 text-center lg:text-left w-full">
             <div>
               <span className="text-xl lg:text-2xl text-yellow-500">
-                Senior Software Developer
+                Software Engineer
               </span>
             </div>
             <div>

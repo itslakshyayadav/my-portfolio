@@ -2,32 +2,72 @@ export default function Skills() {
   const skillData = [
     {
       label: "React.js",
-      percentage: "90%",
-      value: "90",
+      percentage: "100%",
+      value: "100",
     },
     {
       label: "JavaScript",
-      percentage: "85%",
-      value: "85",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "TypeScript",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "Redux saga",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "DevOps",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "ci/cd",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "Node.js",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "Nest.js",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "MongoDB",
+      percentage: "100%",
+      value: "100",
+    },
+    {
+      label: "Python",
+      percentage: "100%",
+      value: "100",
     },
     {
       label: "HTML5",
-      percentage: "95%",
-      value: "95",
+      percentage: "100%",
+      value: "100",
     },
     {
       label: "Tailwind CSS",
-      percentage: "95%",
-      value: "95",
+      percentage: "100%",
+      value: "100",
     },
     {
       label: "CSS3",
-      percentage: "90%",
-      value: "90",
+      percentage: "100%",
+      value: "100",
     },
   ];
   return (
-    <div id="Skills" className="h-[48rem] py-14 px-6 lg:px-10">
+    <div id="Skills" className="min-h-[50rem] py-14 px-6 lg:px-10">
       <h1 className="text-4xl mb-8 lg:text-4xl font-bold text-center text-white">
         My Skills
       </h1>
